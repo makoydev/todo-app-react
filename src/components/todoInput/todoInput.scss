@@ -1,0 +1,21 @@
+form {
+  width: 100%;
+  input {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(235, 21%, 11%);
+    outline: none;
+
+    &::placeholder {
+      color: rgb(126, 125, 125);
+    }
+
+    &:focus {
+      color: white;
+    }
+  }
+}

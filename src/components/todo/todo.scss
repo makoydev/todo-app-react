@@ -1,0 +1,28 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: -150px auto;
+  min-height: 600px;
+
+  .todo {
+    color: white;
+    background-color: transparent;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+}
